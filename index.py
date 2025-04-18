@@ -1,4 +1,8 @@
 
 variable = "2"
 test = " "
-print(test)
+
+if True :
+    tom = "32"
+else :
+    tom ="50"
