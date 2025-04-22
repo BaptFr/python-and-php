@@ -1,7 +1,8 @@
 <?php
-   $nombre1 = $_POST['nombre1'];
-   # $nombre2 = 20;  
-   $opérations = ["addition", "soustraction", "multiplication", "division"];
+   $nombre1 = $_GET['nombre1'];
+   $nombre2= $_GET['nombre2'];
+   #$nombre2 = 20;  
+   #$opérations = ["addition", "soustraction", "multiplication", "division"];
    $choix= "soustraction" ; 
 
    $resultat = 0;
@@ -18,8 +19,7 @@
     }else($choix=="division"){
         $resultat = $nombre1 / $nombre2;
         echo($resultat);
-    }
-
-
-
+    };
 ?>
+
+
