@@ -35,12 +35,19 @@
 
 # print(factorielle(5)) # Affiche 120
 
-#5
-def est_palindrome(mot):
-    longueur = len(mot)
-    for i in range(0, longueur):
-        if mot[i] != mot[]:
-            return False
-    return True
+# #5
+# def est_palindrome(mot):
+#     longueur = len(mot)
+#     for i in range(0, longueur):
+#         if mot[i] != mot[longueur-i-1]:
+#             return False()
+#     return True
 
-print(est_palindrome("radar")) # Affiche True
+# print(est_palindrome("radar")) # Affiche True
+
+#6
+# def compter_mots(phrase):
+#     mots = phrase.split(' ')
+#     return len(mots)
+
+# print(compter_mots("Le test logiciel est essentiel")) # Affiche 5
